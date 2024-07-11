@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "zip-combine"
+version = "0.1.0"
+description = ""
+authors = ["scbmark <scbmark@gmail.com>"]
+readme = "README.md"
+packages = [{include = "zip_combine"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+pyside6 = "^6.6.1"
+certifi = "^2024.2.2"
+pyqtdarktheme = "^2.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+nuitka = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
